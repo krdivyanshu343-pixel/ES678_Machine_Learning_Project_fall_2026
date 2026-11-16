@@ -56,8 +56,6 @@ max_depth = 14, min_samples_leaf = 10; gradient boosting subsample 0.8, n_estima
 * **Size:** 29,531 rows, 26 cities, 2015-01-01 to 2020-07-01; 12 pollutant columns plus AQI and AQI_Bucket.
 * **Quality issues found:** PM2.5 missing in 15.6% of rows (xylene 61%, PM10 38%, NH3 35%); uneven city coverage (nine
   cities have no PM2.5 in 2015-2018); no duplicate city-days; calendar gaps within cities.
-* **Not committed:** the Kaggle page states no redistribution licence, so download the file yourself, see
-  [`data/README.md`](data/README.md).
 * **Privacy:** public data, no personal information. `AQI` / `AQI_Bucket` are never used (computed from the same pollutants).
 
 ## Method in brief
