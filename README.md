@@ -84,8 +84,6 @@ max_depth = 14, min_samples_leaf = 10; gradient boosting subsample 0.8, n_estima
 .
 ├── README.md                          this file
 ├── AI_DISCLOSURE.md                   AI tool used and for what
-├── DELIVERABLES_CHECKLIST.md          course requirements mapped to files
-├── VIVA_NOTES.md                      key decisions and likely viva questions
 ├── requirements.txt
 ├── data/README.md                     how to get city_day.csv (file not committed)
 ├── src/aq_pipeline.py                 all functions (data, features, models, metrics, intervals)
