@@ -12,12 +12,13 @@
 \usepackage{xcolor}
 \usepackage{graphicx}
 
+% This is an ES 678 course paper, not a conference submission.
 \makeatletter
 \renewcommand{\@noticestring}{ES 678 Course Project}
 \makeatother
 
-% YOUR-USERNAME
-\newcommand{\repourl}{https://github.com/krdivyanshu343-pixel/ES678_Machine_Learning_Project_fall_2026}
+% Replace YOUR-USERNAME with your GitHub user name before the final compile.
+\newcommand{\repourl}{https://github.com/YOUR-USERNAME/es678-air-quality}
 
 \title{Next-Day PM2.5 Forecasting in Indian Cities: A Careful Comparison with Persistence}
 
@@ -94,7 +95,7 @@ We ran three analyses on this same task; each model family is re-tuned on 2019 f
 The main limitation is the test window: six months, no October--December peak, one lockdown regime, and only 38 high-pollution days, so conclusions about peaks have wide uncertainty. City coverage is uneven (206--1457 training rows per city), station sets change over time, and models use squared loss. A stronger claim needs a multi-year test that includes winter episodes, station-level data, meteorology (not in this file), and loss functions aimed at MAE or quantiles. Predictive association is not causation. \emph{Answer:} with these data, learned models do not beat persistence by a meaningful margin (best skill $+0.004$, CI containing zero); recent PM2.5 history carries the signal, peaks are under-predicted, and split-conformal intervals are well calibrated on average but not on high-pollution days.
 
 \section{Reproducibility and AI-Use Disclosure}
-Code, notebook, results and LaTeX source: \url{https://github.com/krdivyanshu343-pixel/ES678_Machine_Learning_Project_fall_2026}. The data need a free Kaggle login and are not redistributed; the README gives download steps. Splits, seeds (42), library versions and tuned settings are in \texttt{results/run\_summary.json}; \texttt{python scripts/run\_all.py} regenerates every number, table and figure (about 10 minutes on one CPU core). \emph{AI use:} Claude (Anthropic) assisted with planning, writing and debugging the code and LaTeX, and drafting this text. Outputs were checked with automated leakage and split tests, recomputation of the headline metrics from saved predictions, and inspection of the largest errors; the author is responsible for all content. No private data, passwords or API keys are used.
+Code, notebook, results and LaTeX source: \url{\repourl}. The data need a free Kaggle login and are not redistributed; the README gives download steps. Splits, seeds (42), library versions and tuned settings are in \texttt{results/run\_summary.json}; \texttt{python scripts/run\_all.py} regenerates every number, table and figure (about 10 minutes on one CPU core). \emph{AI use:} Claude (Anthropic) assisted with planning, writing and debugging the code and LaTeX, and drafting this text. Outputs were checked with automated leakage and split tests, recomputation of the headline metrics from saved predictions, and inspection of the largest errors; the author is responsible for all content. No private data, passwords or API keys are used.
 
 \begin{thebibliography}{9}
 \bibitem[Rao(2020)]{rao} R.~Rao. Air Quality Data in India (2015--2020). Kaggle dataset, data made public by the Central Pollution Control Board, India. \url{https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india}
