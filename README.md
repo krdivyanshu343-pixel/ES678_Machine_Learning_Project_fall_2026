@@ -19,8 +19,7 @@ more accurately than **persistence** (tomorrow = today)?
 ## Main finding
 
 The best learned model (random forest, chosen on the 2019 validation year) **only ties persistence** on the held-out
-2020 test period. A modest result with a sound evaluation is exactly what the course rubric rewards, so the paper
-reports it plainly.
+2020 test period.
 
 | 2020 test (n = 3013) | MAE | RMSE | Skill vs persistence (95% block-bootstrap CI) |
 |---|---|---|---|
