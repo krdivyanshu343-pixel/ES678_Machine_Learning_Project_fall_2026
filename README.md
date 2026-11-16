@@ -46,7 +46,7 @@ max_depth = 14, min_samples_leaf = 10; gradient boosting subsample 0.8, n_estima
   <img src="fig_errors.png" width="760" alt="Observed vs predicted PM2.5 and MAE by month">
 </p>
 <p align="center">
-  <img src="fig_coverage" width="760" alt="Empirical coverage of 90% prediction intervals">
+  <img src="fig_coverage.png" width="760" alt="Empirical coverage of 90% prediction intervals">
 </p>
 
 ## Data
