@@ -4,7 +4,7 @@
 
 ES 678 course project (graduate track, individual research paper) by **Divyanshu Kumar (26510041)**.
 The four-page paper is [`paper/es678_project.pdf`](paper.pdf); its LaTeX source is
-[`paper/es678_project.tex`](es_678.tex).
+[`paper/es678_project.tex`](es678_project.tex).
 
 ## The question
 
