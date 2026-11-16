@@ -1,0 +1,11 @@
+\begin{tabular}{lrrrrrr}
+\toprule
+Model & MAE & RMSE & MAE$_{\mathrm{high}}$ & Skill [95\% CI] & MAE$_{\mathrm{pre}}$ & MAE$_{\mathrm{lock}}$ \\
+\midrule
+Persistence & 11.0 & 18.4 & 50.7 & 0 (ref.) & 15.0 & 7.6 \\
+City-month mean & 34.8 & 45.2 & 54.2 & -2.159 [-2.635, -1.870] & 39.7 & 30.6 \\
+Ridge & 12.1 & 18.5 & 51.5 & -0.099 [-0.144, -0.061] & 16.0 & 8.8 \\
+Random forest & \textbf{11.0} & 17.5 & 46.2 & +0.004 [-0.018, +0.030] & 14.8 & 7.7 \\
+Gradient boosting & 11.1 & 17.7 & 46.2 & -0.008 [-0.042, +0.022] & 14.7 & 8.0 \\
+\bottomrule
+\end{tabular}
