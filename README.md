@@ -113,7 +113,7 @@ pip install -r requirements.txt     # tested: Python 3.12, numpy 2.5, pandas 3.0
 python tests/test_leakage.py        # 6 checks, a few seconds
 python scripts/run_all.py           # all experiments, about 10 minutes on one CPU core
 python scripts/verify_headline.py   # recomputes headline MAE and skill from saved predictions
-cd paper && pdflatex es678_project.tex && pdflatex es678_project.tex
+upload the Latex_Source_file.zip and compile in overleaf
 ```
 
 * **Colab:** use the badge above, choose *Runtime > Run all*, and upload `city_day.csv` when asked.
