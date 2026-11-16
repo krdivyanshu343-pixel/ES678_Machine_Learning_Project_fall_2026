@@ -3,7 +3,7 @@
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1bbHlQcyPjlq7UUU4D_Aegft_wqfDwb4U?usp=sharing)
 
 ES 678 course project (graduate track, individual research paper) by **Divyanshu Kumar (26510041)**.
-The four-page paper is [`paper/es678_project.pdf`](paper/es678_project.pdf); its LaTeX source is
+The four-page paper is [`paper/es678_project.pdf`](paper.pdf); its LaTeX source is
 [`paper/es678_project.tex`](paper.tex).
 
 ## The question
