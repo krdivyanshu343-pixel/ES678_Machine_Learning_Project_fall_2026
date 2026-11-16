@@ -1,6 +1,6 @@
 # Air Quality Analysis and Prediction: next-day PM2.5 forecasting in Indian cities
 
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR-USERNAME/air-quality/blob/main/notebooks/air_quality_colab.ipynb)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1bbHlQcyPjlq7UUU4D_Aegft_wqfDwb4U?usp=sharing)
 
 ES 678 course project (graduate track, individual research paper) by **Divyanshu Kumar (26510041)**.
 The four-page paper is [`paper/es678_project.pdf`](paper/es678_project.pdf); its LaTeX source is
