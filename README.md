@@ -43,10 +43,10 @@ max_depth = 14, min_samples_leaf = 10; gradient boosting subsample 0.8, n_estima
    days; quantile gradient boosting covers 0.87 overall and 0.74 of high days because its width adapts.
 
 <p align="center">
-  <img src="paper/figures/fig_errors.png" width="760" alt="Observed vs predicted PM2.5 and MAE by month">
+  <img src="fig_errors.png" width="760" alt="Observed vs predicted PM2.5 and MAE by month">
 </p>
 <p align="center">
-  <img src="paper/figures/fig_coverage.png" width="760" alt="Empirical coverage of 90% prediction intervals">
+  <img src="coverage.png" width="760" alt="Empirical coverage of 90% prediction intervals">
 </p>
 
 ## Data
